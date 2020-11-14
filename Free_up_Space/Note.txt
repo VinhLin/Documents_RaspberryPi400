@@ -1,0 +1,26 @@
+Link:
+> https://itsfoss.com/free-up-space-ubuntu-linux/
+
+
+### Các câu lệnh được sử dụng:
+	> sudo apt-get autoremove
+	> sudo apt-get autoclean
+	> sudo journalctl --vacuum-time=3d
+	> rm -rf ~/.cache/thumbnails/*
+	> sudo apt-get clean
+	> sudo apt-get autoremove --purge
+
+
+- Ngoài các câu lệnh trên ta còn có thể giải phóng dung lượng bằng cách xóa bỏ một số phần mềm không dùng đến.
+Vào Ubuntu Sofware -> Installed.
+- Xóa bỏ những phiên bản cũ có trong Snap bằng cách thực hiện chạy file DeleteOldSnap.sh ở bên ngoài.
+	> sudo chmod 777 DeleteOldSnap.sh
+	> sudo ./DeleteOldSnap.sh
+
+
+
+
+
+
+
+
