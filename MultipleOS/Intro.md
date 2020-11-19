@@ -13,9 +13,9 @@
 - Tham khảo về **PINN** cho biết để khi nào có nhu cầu thì sẽ sử dụng.
 
 
-
-
-
+### Tham khao
+> https://www.kodifiretvstick.com/raspberry-pi-operating-systems-list/ \
+> https://www.ubuntupit.com/best-raspberry-pi-os-available/
 
 
 
