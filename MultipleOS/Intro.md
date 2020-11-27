@@ -8,16 +8,14 @@
 - Tải [PINN](https://sourceforge.net/projects/pinn/) về, giải nén nó và copy nó vào thẻ nhớ (hoặc USB nếu muốn boot OS từ usb).
 - Lựa chọn các *OS* cần cài và setup như trong video.
 
-### Note: 
-- Mình đang xài *Ubuntu 20.10* trên Pi400 mà không biết trong **PINN** nó có bản Ubuntu 20.10 hay là `bản Ubuntu 20.04`. 
-- Tham khảo về **PINN** cho biết để khi nào có nhu cầu thì sẽ sử dụng.
-
-
 ### Tham khao
 > https://www.kodifiretvstick.com/raspberry-pi-operating-systems-list/ \
-> https://www.ubuntupit.com/best-raspberry-pi-os-available/
+> https://www.ubuntupit.com/best-raspberry-pi-os-available/ \
+> https://github.com/raspberrypi/documentation/blob/master/hardware/raspberrypi/bootmodes/msd.md
 
-
-
+### Link tham khảo PINN
+> https://github.com/procount/pinn \
+> https://pinn.mjh.nz/ \
+> https://github.com/procount/pinn/blob/master/README_PINN.md
 
 
