@@ -1,0 +1,22 @@
+- Đây là lỗi về kết nối module GSM.
+- Mặc dù đã thiết lập connect được với module GSM (có hiện lên đc ip, nhưng không vào mạng đc (ping 8.8.8.8 thì báo lỗi)). Nguyên nhân là do nó bị lỗi "not replacing default route to eth0".
+- Sau khi seach thì mình khắc phục bằng cách:
+	> sudo route -n 
+	> sudo ip rou delete default
+	> sudo route add default ppp0
+- Kiểm tra một lần nữa bằng lệnh: sudo route -n 
+- Tạm thời thì đã kết nối đc với internet. Nhưng khi rút nguồn cắm lại thiết bị thì tình trạng vẫn y như lúc đầu.
+
+#### Cách làm thứ 2: 
+	> sudo nano /etc/ppp/options
+- Thêm vào 2 dòng sau:
+defaultroute
+replacedefaultroute
+- Kiểm tra lại bằng 2 lệnh: 
+	> sudo route -n 
+	> ping 8.8.8.8
+- Với cách làm thứ 2 này thì ngay cả khi mình rút nguồn ra cắm lại, và khi đã kết nối với module GSM thì không còn lỗi "not replacing default route to eth0" nữa, kết nối internet bình thường.
+
+Link:
+> https://www.linuxquestions.org/questions/debian-26/problem-with-ppp-internet-access-4175427186/
+> https://klaith.wordpress.com/2009/04/05/ppp0-not-replacing-existing-default-route/

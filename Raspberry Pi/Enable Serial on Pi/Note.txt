@@ -1,0 +1,22 @@
+Link:
+http://pivietnam.com.vn/bai-4-lap-trinh-raspberry-pi-su-dung-cong-truyen-thong-uart-pivietnam-com-vn.html
+https://www.raspberrypi.org/forums/viewtopic.php?t=159984
+
+
+Có 2 cách làm để có thể bật Serial trên Pi để giao tiếp UART
+Cách 1: Thực hiện các bước sau:
+	sudo raspi-config
+Chọn Interfacing Options -> Serial
+Chọn No //Disable serial login shell
+Chọn Yes //Enable serial interface
+Sau đó nhấn OK để reboot lại pi
+Cách 2: Ta làm như sau:
+	sudo nano /boot/config.txt
+Thêm đoạn "enable_uart=1" này vào 
+Thực hiện câu lệnh
+	sudo systemctl mask serial-getty@ttyAMA0.service
+Mở file /boot/cmdline.txt
+	sudo nano /boot/cmdline.txt
+Xóa dòng console=serial0,115200 sau đó save lại.
+
+

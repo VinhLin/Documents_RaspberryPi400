@@ -1,0 +1,35 @@
+Cach thu hien:
+sudo nano /etc/dhcpcd.conf
+
+Them cac dong sau:
+
+interface eth0
+  static ip_address=192.168.10.100/24
+  static routers=192.168.10.100
+  static domain_name_servers=8.8.8.8 8.8.4.4
+
+interface wlan0
+  static ip_address=192.168.1.200/24
+  static routers=192.168.1.1
+  static domain_name_servers=8.8.8.8 8.8.4.4
+
+
+
+
+
+
+
+### Other
+> sudo nano /etc/network/interfaces
+
+```
+auto eth0
+iface eth0 inet static 
+  address 192.168.10.100
+  netmask 255.255.255.0
+  gateway 192.168.10.100
+```
+
+
+
+

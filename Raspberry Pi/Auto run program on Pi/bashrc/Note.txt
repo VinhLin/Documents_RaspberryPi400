@@ -1,0 +1,9 @@
+Khi muốn thực hiện 1 lệnh cho Raspberry thì ta có thể sử dụng bashrc (thay vì dùng systemd (tạo 1 file .sh và 1 file .service)).
+
+Cách thực hiện:
+	$ sudo nano ~/.bashrc
+thêm câu lệnh cần thực hiện vào cuối nội dung file bashrc.
+
+Ví dụ minh họa như hình bên ngoài.
+
+

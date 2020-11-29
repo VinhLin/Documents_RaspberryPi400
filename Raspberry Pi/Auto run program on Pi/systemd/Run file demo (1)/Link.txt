@@ -1,0 +1,9 @@
+https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/#systemd
+
+https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-3-systemd
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+LINK:
+> https://raspberry-projects.com/pi/command-line/io-pins-command-line/io-pin-control-from-the-command-line
+
+
+### Có 2 cách để control GPIO là một là viết code (giống như trên thư viện periph.io); hai là config trực tiếp trên Pi (như link trên).
+
+- Các bước sau thực hiện set output low (mức thấp) cho GPIO 18 trên Pi: 
+> sudo su
+> echo "18" > /sys/class/gpio/export
+> echo "out" > /sys/class/gpio/gpio18/direction
+> echo "0" > /sys/class/gpio/gpio18/value
+
+
+
+- Hàm control GPIO18 viết bằng Go:
+func EnableModuleGSM() {
+	host.Init()
+	pinGSM := gpioreg.ByName("GPIO18")
+	fmt.Printf("GPIO18: %v\n", pinGSM.Read())
+	pinGSM.Out(gpio.High)
+	time.Sleep(10 * time.Millisecond)
+	pinGSM.Out(gpio.Low)
+	// pinGSM.In(gpio.PullUp, gpio.FallingEdge)
+	fmt.Println("Turn on module GSM")
+}

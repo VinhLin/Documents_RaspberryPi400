@@ -1,0 +1,11 @@
+https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
+
+https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all#method-1-rclocal
+
+http://arduino.vn/bai-viet/1034-tu-dong-chay-chuong-trinh-cho-raspberry-khi-khoi-dong
+
+
+
+
+
+

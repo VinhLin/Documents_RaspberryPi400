@@ -1,0 +1,9 @@
+Link:
+http://www.naspberrypi.com/
+https://www.raspberrypi.org/magpi/build-a-raspberry-pi-nas/
+https://www.howtoforge.com/creating-a-home-media-and-file-server-with-ubuntu
+
+
+NAS Device:
+https://tinhte.vn/threads/truy-cap-du-lieu-tren-usb-moi-luc-moi-noi-voi-pogoplug-pro.541447/
+https://tinhte.vn/threads/nhung-dieu-co-ban-nhat-ve-o-luu-tru-mang-nas.824025/

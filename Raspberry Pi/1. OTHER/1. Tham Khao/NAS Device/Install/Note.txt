@@ -1,0 +1,17 @@
+Transmission:
+https://www.addictivetips.com/media-streaming/kodi/install-transmission-raspberry-pi-torrent/
+https://linuxconfig.org/how-to-set-up-transmission-daemon-on-a-raspberry-pi-and-control-it-via-web-interface
+
+Samba:
+https://gist.github.com/leven-cn/6536426
+
+
+
+
+
+
+
+
+
+
+

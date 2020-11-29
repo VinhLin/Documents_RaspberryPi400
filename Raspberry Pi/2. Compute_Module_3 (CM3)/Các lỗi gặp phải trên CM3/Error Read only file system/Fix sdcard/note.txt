@@ -1,0 +1,9 @@
+- Hiện tại thì lỗi read only file system chỉ còn thấy ở phần sd card thôi, không còn xảy ra ở app gps nữa.
+
+- Mặc dù mình đã thử lệnh "mount -o remount, rw /", nhưng lại ko thấy hiệu quả (mà lần trước thử thì có hiệu quả) không hiểu lý do?
+
+- Mình vừa mới thử cách sau và restart lại app thì thấy nó đã chạy lại bình thường:
+	> sudo su 
+	> mount -o remount,rw /media/sdcardsecond/
+	> systemctl restart cam.service	
+

@@ -1,0 +1,14 @@
+Các bước thực hiện:
+
+sudo mkdir ~/Desktop/RasPI/
+
+sudo apt install sshfs 
+
+sshfs pi@192.168.10.100:/home/pi ~/Desktop/RasPI/
+
+cp gps  ~/Desktop/RasPI/
+
+
+
+
+

@@ -1,0 +1,34 @@
+Link:
+http://diegocarrasco.com/how-to-create-a-ssh-tunnel-with-ngrok-on-ubuntu-server-aka-ssh-access-to-your-local-server-in-local-network-with-dynamic-ip/
+https://ngrok.com/docs#tcp-examples
+https://blog.cloud365.vn/linux/Cai-dat-va-su-dung-ngrok/
+
+
+Trên con Pi thì ta phải sử dụng bản Linux(ARM)
+Download and uzip file: https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+Copy file ngrok and edit file ngrok.conf to /usr/bin
+Edit file ngrok.service to /lib/systemd/system
+Follow this link: https://dashboard.ngrok.com/status
+$ ssh pi@0.tcp.ngrok.io -p PORT
+
+
+
+Các bước thiết lập file ngrok.service:
+sudo nano /lib/systemd/system/ngrok.service
+sudo chmod 644 /lib/systemd/system/ngrok.service
+sudo systemctl daemon-reload
+sudo reboot
+
+
+
+Chạy app (Chạy bằng tay)
+./ngrok 44yj7DG5uqroKXybhTmQk_4r9k7Ke5iM6mQoTcjn7f1
+./ngrok tcp 22
+
+
+sudo /usr/bin/ngrok start app-ssh --config /usr/bin/ngrok.conf
+
+
+vinhlin@dinhviso.com.vn
+dinhviso2019
+4PWdKQHRuxpkne43yEiey_7K1XhFA78ybHDUZN7Q51y

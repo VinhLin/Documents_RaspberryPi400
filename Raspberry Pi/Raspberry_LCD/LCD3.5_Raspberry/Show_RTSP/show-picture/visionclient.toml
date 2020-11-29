@@ -1,0 +1,9 @@
+#PUT AT: /etc/visionclient.toml
+sentryDsn = "https://c883bc800f1f4f0f83d9fa78103b5bcb:b9da966c3f38445ea480033519d94ae6@sentry.dinhviso.com.vn/32"
+logLevel = 2 # -1: DebugLevel 0: InfoLevel 1:  WarnLevel 2: ErrorLevel 3: DPanicLevel 4: PanicLevel 5: FatalLevel
+deviceID = "0000000000"
+[storages]
+db="/home/pi"
+media="/home/pi"
+[photo]
+duration = 3 #duration take photo and recording video (LATER)

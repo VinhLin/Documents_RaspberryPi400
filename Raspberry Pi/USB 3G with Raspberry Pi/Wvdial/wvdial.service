@@ -1,0 +1,15 @@
+[Unit]
+Description=WvDial Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/wvdial 3gmobi
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=wvdial
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

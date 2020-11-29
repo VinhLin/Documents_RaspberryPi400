@@ -1,0 +1,21 @@
+Link tham khảo:
+> https://raspberrypi.stackexchange.com/questions/68912/can-start-pi-but-get-errors-due-to-read-only-filesystem
+> https://serverfault.com/questions/304416/i-cant-delete-files-rm-cannot-remove-x-read-only-file-system
+
+
+- Dựa vào link tham khảo trên thì mình thấy có cách khắc phục sau:
+> sudo nano /boot/cmdline.txt
+Add "rw" just before "rootwait"
+> sudo su
+> mount -o remount, rw /
+
+- Khi thực hiện sau lệnh "mount -o remount, rw /" thì mình thấy là app itracking_pro sẽ restart lại và hết bị lỗi "read-only-filesystem".
+
+
+
+
+
+
+
+
+

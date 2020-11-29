@@ -1,0 +1,22 @@
+Raspberry Pi Media Server - MiniDLNA
+
+Link:
+http://www.naspberrypi.com/minidlna.html
+https://www.instructables.com/id/Raspberry-Pi-Media-Server-MiniDLNA/
+
+
+Steps install:
+	$ sudo apt-get update
+	$ sudo apt-get upgrade
+	$ sudo apt-get install minidlna
+	$ sudo nano /etc/minidlna.conf
+Add line: 	media_dir=PV,/home/pi/media
+		friendly_name=RASPI MINIDLNA
+	$ mkdir /home/pi/media
+	$ sudo service minidlna restart
+	$ sudo service minidlna force-reload
+
+
+Open:	 http://192.168.1.200:8200/
+with 192.168.1.200 is your IP Raspberry
+

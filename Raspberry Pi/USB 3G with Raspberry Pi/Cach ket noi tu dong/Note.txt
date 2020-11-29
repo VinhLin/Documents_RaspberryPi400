@@ -1,0 +1,26 @@
+Link:
+https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
+
+
+Cac buoc thuc hien:
+B1: Copy file wvdial.service 
+sudo nano /etc/systemd/system/wvdial.service
+
+B2: Start
+sudo chmod 644 /etc/systemd/system/wvdial.service
+sudo systemctl start wvdial 
+
+B3: Kich hoat
+sudo systemctl daemon-reload
+sudo systemctl enable wvdial
+
+B4: Restart lai thiet bi
+sudo reboot
+
+
+
+
+
+
+
+

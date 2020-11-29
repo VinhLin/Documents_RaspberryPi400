@@ -1,0 +1,16 @@
+- Khi sử dụng telebit ở chế độ root có một vấn đề xảy là khi cổng ethenet đc kích hoạt (đèn ở cổng ethenet sáng lên) thì telebit ko hoạt động.
+- Ta khắc phục bằng cách kéo dài thời gian thực hiện file telebit.service
+	$ sudo nano /etc/systemd/system/telebit.service
+- Thêm dòng sau vào phần [Service]
+	ExecStartPre=/bin/sleep 30
+(Chờ 30s sau mới thực hiện file telebit.service)
+- Sau đó reboot lại thì không những vấn đề đc khắc phục mà thời gian login vào Pi cung ngắn lại. 
+(Lúc trước khi cài xong Telebit ở chế độ root thì mỗi lần reboot lại phải mất hơn 2 phút mới login vào Pi lại đc).
+
+Link tham khảo:
+https://stackoverflow.com/questions/43001223/how-to-ensure-that-there-is-a-delay-before-a-service-is-started-in-systemd
+
+
+
+
+

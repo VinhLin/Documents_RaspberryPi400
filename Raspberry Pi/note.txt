@@ -1,0 +1,46 @@
+> https://www.raspberrypi.org/software/operating-systems/
+> https://www.makeuseof.com/tag/raspberry-pi-update-raspbian-os/
+
+> sudo su
+> apt update -y && apt upgrade -y && apt dist-upgrade
+
+> sudo apt update
+> sudo apt-get upgrade
+> apt-get update --fix-missing
+
+Một số câu lệnh nên cài đặt cho Raspberry:
+
+> sudo apt install git
+> sudo apt-get install cmake
+
+> sudo apt-get install vim
+
+> sudo apt-get install fonts-liberation
+> sudo apt install screen
+> sudo apt-get install arp-scan
+> sudo apt-get install speedtest-cli
+> sudo apt-get install ffmpeg
+> sudo apt install nload
+> sudo apt-get install wvdial
+> sudo apt-get install isc-dhcp-server
+
+> sudo apt-get install iperf 
+> sudo apt-get install iperf3 -y
+
+- Cài đặt Gstreamer
+- Cài đặt Hotspot
+- Cài đặt Ngrok
+
+
+
+
+
+
+
+
+
+
+
+
+
+

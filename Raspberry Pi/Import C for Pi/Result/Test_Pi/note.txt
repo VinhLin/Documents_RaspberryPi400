@@ -1,0 +1,16 @@
+export CC=aarch64-linux-gnu-gcc
+GOARCH=arm64 GOOS=linux CGO_ENABLED=1 go build -o cgo maintest.go
+scp cgo pi@192.168.2.67:~/cgo
+
+
+GOARCH=arm GOARM=6 GOOS=linux CGO_ENABLED=1 go build -o cgo maintest.go
+
+arm-linux-gnueabihf-gcc maintest.go -static -march=armv7-a -mfloat-abi=hard -mfpu=neon-vfpv4
+
+go build -o cgo maintest.go -static -march=armv7-a -mfloat-abi=hard -mfpu=neon-vfpv4
+
+arm-linux-gnueabihf-gcc tea.c –o tea
+
+GOOS=linux GOARCH=arm GOARM=7 GOGCCFLAGS="-fPIC -pthread -mfpu=vfp -mfloat-abi=hard --static" CC=arm-linux-gnueabihf-gcc CGO_LDFLAGS="-L/usr/local/lib -lopenblas" go build -x maintest.go
+
+GOOS=linux GOARCH=arm CGO_ENABLED=1 CC=arm-linux-gnueabihf-gcc go build -o test maintest.go

@@ -1,0 +1,12 @@
+Install sshfs on your PC:
+	$ sudo apt install sshfs 
+
+Make folder RasPi in Desktop	
+	$ mkdir Desktop/RasPi
+
+Connect folder /home/pi of Rasoberry with folder RasPi
+	$ sshfs pi@192.168.1.200:/home/pi ~/Desktop/RasPi/
+
+Unmount 
+	$ df -h
+	$ sudo umount pi@192.168.1.200:/home/pi

@@ -1,0 +1,14 @@
+[Unit]
+Description=gps Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/gps /home/pi/
+Restart=always
+RestartSec=5s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,27 @@
+
+Ta dung code demo de chop tat led.
+Sau khi viet code va gui qua Raspberry, ta thuc hien cac buoc sau de auto run:
+
+B1: Thuc hien cau lenh
+pi@raspberrypi:~ $ sudo nano /etc/rc.local
+
+B2: Chen them noi dung vao tren exit0
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+/home/pi/demo 
+exit 0
+
+B3: Restart lai Pi, va kiem tra ket qua.
+
+
+
+Cau lenh giup ta tu dong chay file demo va tu dong ket noi usb3g:
+/home/pi/demo&/usr/bin/wvdial 3gviettel > /dev/null 2>&1 &
+
+Lenh /usr/bin/wvdial la duong dan den file wvdial.conf 
+
+
+

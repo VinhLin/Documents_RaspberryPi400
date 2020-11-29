@@ -1,0 +1,11 @@
+https://www.howtoforge.com/tutorial/install-and-configure-isc-dhcp-server-in-debian-9/
+https://mehmetburakeker.com/2017/06/05/raspberry-pi-dhcp-server/
+https://askubuntu.com/questions/783155/service-isc-dhcp-server-fails-to-start
+http://raspberrypihq.com/how-to-turn-a-raspberry-pi-into-a-wifi-router/
+
+
+https://www.youtube.com/watch?v=Pd37rZFe274
+https://www.youtube.com/watch?v=1vprFai8BGA
+
+
+

@@ -1,0 +1,25 @@
+Telebit: dull-turtle-64.telebit.io
+
+$ ssh -o ProxyCommand='openssl s_client -connect %h:443 -servername %h -quiet' dull-turtle-64.telebit.io
+
+
+Pi:
+/home/pi# telebit ssh auto 
+/home/pi# telebit tcp 9000
+/home/pi# telebit save
+
+/home/pi# telebit status
+/home/pi# telebit list
+
+
+ssh -o ProxyCommand='openssl s_client -connect %h:443 -servername %h -quiet' strong-falcon-71.telebit.io
+
+ssh pi@strong-falcon-71.telebit.io -p 46947
+
+netcat strong-falcon-71.telebit.io 46947
+ssh -o ProxyCommand='openssl s_client -connect %h:%p -servername %h -quiet'
+
+raspberry
+dvs2019
+
+
