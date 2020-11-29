@@ -22,6 +22,7 @@
 ## Tài khoản Github: https://github.com
 - login: VinhLin
 - pass: Sherlock2910
+`Ngày 29-11-2020`
 
 ## CameraHome
 - Mở wifi lên kết nối vào Pi_Home 
