@@ -12,6 +12,7 @@
 > sudo apt install git \
 > sudo apt-get install ffmpeg \
 > sudo apt install nload \
+> sudo apt-get install ibus ibus-unikey \
 > sudo apt-get install isc-dhcp-server
 
 ### Snap: sudo apt install snapd
