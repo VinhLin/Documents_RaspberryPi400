@@ -19,9 +19,28 @@
 > sudo snap install mdview \
 
 
+## Tài khoản Github: https://github.com
+- login: VinhLin
+- pass: Sherlock2910
 
-
-
+## CameraHome
+- Mở wifi lên kết nối vào Pi_Home 
+`pass: Camerahotspot`
+- Truy cập vào đường link của Shinobi
+> 192.168.2.200:8081
+```
+  login: linducvinh@gmail.com
+  pass: ldv1413212
+```
+> 192.168.2.200:8081/super
+```
+admin@shinobi.video
+admin
+```
+### SSH Pi
+`ssh pi@192.168.2.200`
+- login: pi
+- pass: ldv1413212
 
 
 
