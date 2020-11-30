@@ -14,7 +14,8 @@
 > sudo apt install libgtk-3-dev libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5 \
 > sudo apt install libatlas-base-dev liblapacke-dev gfortran \
 > sudo apt install libhdf5-dev libhdf5-103 \
-> sudo apt install python3-dev python3-pip python3-numpy
+> sudo apt install python3-dev python3-pip python3-numpy \
+> pip3 install face_recognition 
 - Cài đặt OpenCV cho Pi bằng **pip**. Nhớ lưu ý là phải cài **bản 3.4.6.27** vì nếu cài *bản 4* trở đi thì code bị lỗi
 > pip3 install opencv-contrib-python==3.4.6.27
 - Git clone:
