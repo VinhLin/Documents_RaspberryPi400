@@ -15,10 +15,6 @@
 > sudo apt-get install ibus ibus-unikey \
 > sudo apt-get install isc-dhcp-server
 
-### Snap: sudo apt install snapd
-> sudo snap install mdview \
-
-
 
 ### Editors: https://www.raspberrypi.org/documentation/linux/usage/text-editors.md
 

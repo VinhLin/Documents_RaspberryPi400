@@ -13,4 +13,10 @@
 - Nếu cài thành công VSCode và **không lag**, mình nghĩ sẽ dùng để code **python** thôi.
 - Cài **Goalang** trên Pi thì cũng đc, nhưng nếu để code thật sự thì mình thấy nó sẽ rất lag đâ
 
-
+## Các Extension cần cài đặt:
+> vscode-icons
+> Atom One Dark/One Dark Pro
+> Reload
+> markdownlint
+> Bracket Pair Colorizer
+> Python
