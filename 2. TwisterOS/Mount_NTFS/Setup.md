@@ -20,5 +20,5 @@
 - Đây sẽ là nội dung cần thêm vào:
 > UUID=7414D30514D2C96E /mnt/mydisk ntfs defaults 0 2
 - Sau đó reboot lại máy, kiểm tra lại trong thư mục **/mnt/mydisk** thì mình sẽ thấy dữ liệu trong ổ cứng.
-- **Note** có thể dùng lệnh này thay vì phải reboot lại:
+- Dùng lệnh này để kiểm tra lại:
 > sudo mount -a
