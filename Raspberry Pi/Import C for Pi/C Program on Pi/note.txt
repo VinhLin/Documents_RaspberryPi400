@@ -1,4 +1,0 @@
-C Program on Pi
-> http://fractal.math.unr.edu/~ejolson/pi/Essentials_C_Modified.pdf
-> http://www.circuitbasics.com/how-to-write-and-run-a-c-program-on-the-raspberry-pi/
-

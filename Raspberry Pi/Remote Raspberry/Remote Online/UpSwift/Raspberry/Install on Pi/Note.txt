@@ -1,4 +1,0 @@
-Sau khi đã đăng ký xong tài khoản và tạo xong Project.
-Lúc này ta để ý ở trên thấy dòng "Register Device" nhấn vào sẽ có như Hình 1.
-Nhấn vào "Copy to clipboard".
-Trên con Pi ta thực hiện như Hình 2.

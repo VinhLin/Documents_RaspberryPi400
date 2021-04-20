@@ -1,6 +1,0 @@
-Để kết nối giữa PC với Raspberry thì ta có 2 cách, đó là:
-	- Kết nối Local (nội mạng)
-	- Kết nối Online (Internet)
-
-
-Kết nối online, ngoài cách sử dụng Ngrok ra thì ta có thể sử dụng UpSwift.

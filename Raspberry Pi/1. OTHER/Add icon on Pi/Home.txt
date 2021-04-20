@@ -1,7 +1,0 @@
-[Desktop Entry]
-Comment=Home Folder
-Encoding=UTF-8
-Icon=folder_home
-Name=Home
-Type=Link
-URL=/home/pi/

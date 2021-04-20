@@ -1,7 +1,0 @@
-Để kết nối Local có 2 cách:
-	- Dùng lệnh ssh
-	- Dùng thư viện sshfs
-
-
-Tương tự khi dùng dây Lan để kết nối với pi.
-
